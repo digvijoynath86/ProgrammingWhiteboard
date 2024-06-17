@@ -20,7 +20,7 @@ public class InsertionSort {
 			}
 			arr[j+1]=x;
 		}
-		
+		//printing all elements
 		for(int ele:arr) {
 			System.out.println(ele);
 		}
