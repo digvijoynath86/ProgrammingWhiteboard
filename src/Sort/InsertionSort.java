@@ -9,10 +9,11 @@ public class InsertionSort {
 		int j;
 		int x;
 		
+		// Loop through the elements
 		for(i=1;i<n;i++) {
 			j=i-1;
 			x=arr[i];
-			
+			//Loop till left element is greater than the element under comparison
 			while(j>-1 && arr[j]>x) {
 				arr[j+1]=arr[j];
 				j--;
