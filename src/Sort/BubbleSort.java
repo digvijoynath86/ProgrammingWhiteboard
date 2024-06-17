@@ -9,7 +9,7 @@ public class BubbleSort {
 		// Method call to get highest number in the array
 		//int highestElement=findHighestElement(arr);
 		//System.out.println(highestElement);
-
+		//Loop to pass through elements
 		for (int i = 0; i < n - 1; i++) {
 			flag = 0;
 			for (int j = 0; j < n - 1 - i; j++) {
